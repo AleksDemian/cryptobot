@@ -54,7 +54,7 @@ def make_money(update, context):
 
         context.bot.send_message(chat_id=chat_id, text='\n'.join(final_message))
 
-        time.sleep(60)  # run every minute
+        time.sleep(300)  # run every minute
 
 
 def main():
